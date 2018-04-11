@@ -1,12 +1,7 @@
-<!Doctype html>
-<html>
-<head></head>
-<body>
-<h1>page1</h1>
-<div class="links">
-    <a href="{{url('/')}}">welcome</a>
-    <a href="{{url('page2')}}">page2</a>
-    <a href="{{url('page3')}}">page3</a>
+@extends('layouts.header')
+
+
+<div class="content">
+    @include('layouts.menu')
+    <h1>page1</h1>
 </div>
-</body>
-</html>
