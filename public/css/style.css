@@ -1,0 +1,28 @@
+.links {
+
+    width: 400px;
+    height: 100px;
+
+}
+
+.links a {
+    text-decoration: none;
+    text-decoration:-moz-none;
+    list-style-type: none;
+    float: left;
+    width: 85px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px;
+}
+
+.menu_p {
+    padding: 10px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+h1 {
+    margin: 10px 10px 10px 20px;
+    font-style: revert;
+}
