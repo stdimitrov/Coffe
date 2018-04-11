@@ -21,3 +21,8 @@
     font-style: italic;
     font-size: 16px;
 }
+
+h1 {
+    margin: 10px 10px 10px 20px;
+    font-style: revert;
+}
