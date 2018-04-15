@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +19,13 @@
 <div id="container">
 @yield('page-content')
 </div>
+<script src="{{URL::asset('bower_components/angular/angular.js')}}"></script>
+<script src="{{URL::asset('bower_components/angular/angular.min.js')}}"></script>
+<!--  Controllers -->
+<script src="{{URL::asset('bower_components/angular/controller/UserPage.js')}}"></script>
+<!--  -->
+<script src="{{URL::asset('js/app.js')}}"></script>
+<script src="{{URL::asset('js/app.js')}}"></script>
 </body>
 </html>
 

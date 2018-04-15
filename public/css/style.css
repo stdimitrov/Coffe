@@ -1,25 +1,33 @@
 .links {
-
-    width: 400px;
+    width: 95%;
     height: 100px;
-
+    display: inline-block;
+    border: 1px;
 }
 
 .links a {
     text-decoration: none;
-    text-decoration:-moz-none;
+    text-decoration: -moz-none;
     list-style-type: none;
-    float: left;
-    width: 85px;
+    width: 40px;
     height: 60px;
     background-color: transparent;
     border: 1px;
+    margin: 5px 5px 5px 20px;
 }
 
 .menu_p {
     padding: 10px;
     font-style: italic;
-    font-size: 16px;
+    font-size: 13px;
+    float:left;
+}
+
+.logreg {
+    padding: 10px;
+    font-style: italic;
+    font-size: 13px;
+    float:right;
 }
 
 h1 {

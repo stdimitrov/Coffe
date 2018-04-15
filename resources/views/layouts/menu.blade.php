@@ -3,4 +3,5 @@
     <a href="{{url('page1')}}"><p class="menu_p">page1</p></a>
     <a href="{{url('page2')}}"><p class="menu_p">page2</p></a>
     <a href="{{url('page3')}}"><p class="menu_p">page3</p></a>
+    <a href="{{url('home')}}"><p class="logreg">login</p></a>
 </div>
