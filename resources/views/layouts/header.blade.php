@@ -19,14 +19,14 @@
 <div id="container">
 @yield('page-content')
 </div>
-<script src="{{asset('bower_components/angular/angular.js')}}" type="text/javascript"></script>
-<script src="{{asset('bower_components/angular/app.js')}}" type="text/javascript"></script>
-<script src="{{asset('bower_components/angular-route/angular-route.js')}}" type="text/javascript"></script>
+<script src="{{asset('js/angular/angular.js')}}" type="text/javascript"></script>
+<script src="{{asset('js/angular/app.js')}}" type="text/javascript"></script>
+<script src="{{asset('js/angular-route/angular-route.js')}}" type="text/javascript"></script>
 
 <!--  Controllers -->
-<script src="{{asset('bower_components/angular/controller/UserPage.js')}}"></script>
-<script src="{{asset('bower_components/angular/controller/Pages.js')}}"></script>
-<script src="{{asset('bower_components/angular/controller/HomeCtrl.js')}}"></script>
+<script src="{{asset('js/angular/controller/UserPage.js')}}"></script>
+<script src="{{asset('js/angular/controller/Pages.js')}}"></script>
+<script src="{{asset('js/angular/controller/HomeCtrl.js')}}"></script>
 <!--  -->
 <script src="{{asset('js/app.js')}}"></script>
 </body>
