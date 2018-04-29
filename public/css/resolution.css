@@ -1,42 +1,72 @@
 @media only screen and (max-width: 1920px) and (min-width: 1367px) {
-
+    /* ********************* menu **************************** */
     .menu_p {
         color: red; /* this is only for test */
     }
+
     .logreg {
-        color:blue;
+        color: blue;
     }
+
+    /* ********************* all page ************************* */
+    .all_page {
+        width: auto;
+        margin: 10px 85px 10px 85px;
+    }
+
+    .all_page h2 h3 {
+
+    }
+
+    .all_page p {
+
+    }
+
+    /* ********************* first page *********************** */
+    /* ********************* second page ********************** */
+    /* ********************* third page *********************** */
+    /* ********************* four page  *********************** */
+    /* ********************* *********** ********************** */
 }
 
+/* ************************************************************** */
+/* ****************** resolution 1366 - 1281 ******************** */
 /* ************************************************************** */
 
 @media only screen and (max-width: 1366px) and (min-width: 1281px) {
     .menu_p {
         color: blue; /* this is only for test */
     }
+
     .logreg {
-        color:red;
+        color: red;
     }
 }
 
+/* ************************************************************** */
+/* ****************** resolution 1280 - 1025 ******************** */
 /* ************************************************************** */
 
 @media only screen and (max-width: 1280px) and (min-width: 1025px) {
     .menu_p {
         color: green; /* this is only for test */
     }
+
     .logreg {
-        color:yellowgreen;
+        color: yellowgreen;
     }
 }
 
+/* ************************************************************** */
+/* ****************** resolution 1025 - ???? ******************** */
 /* ************************************************************** */
 
 @media only screen and (max-width: 1025px) {
     .menu_p {
         color: yellowgreen; /* this is only for test */
     }
+
     .logreg {
-        color:green;
+        color: green;
     }
 }

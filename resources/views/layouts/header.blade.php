@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>coffe</title>
+    <title>Coffe</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -17,7 +17,7 @@
 </head>
 <body>
 <div id="container">
-@yield('page-content')
+    @yield('page-content')
 </div>
 <script src="{{asset('js/angular/angular.js')}}" type="text/javascript"></script>
 <script src="{{asset('js/angular/app.js')}}" type="text/javascript"></script>
