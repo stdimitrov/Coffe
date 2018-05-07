@@ -19,6 +19,7 @@
 <div id="container">
     @yield('page-content')
 </div>
+<footer></footer>
 <script src="{{asset('js/angular/angular.js')}}" type="text/javascript"></script>
 <script src="{{asset('js/angular/app.js')}}" type="text/javascript"></script>
 <script src="{{asset('js/angular-route/angular-route.js')}}" type="text/javascript"></script>

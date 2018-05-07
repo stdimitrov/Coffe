@@ -1,21 +1,19 @@
-<div class="links">
-    <ul class="menu_ul">
-        <li class="menu_li">
-            <a href="{{url('/')}}"><p class="menu_p">welcome</p></a>
+<nav>
+    <ul class="nav_ul">
+        <li class="nav_li">
+            <a href="{{url('/')}}"><p class="nav_p">welcome</p></a>
         </li>
-        <li class="menu_li">
-            <a href="{{url('/page1')}}"><p class="menu_p">Еспресо</p></a>
+        <li class="nav_li">
+            <a href="{{url('/page1')}}"><p class="nav_p">Еспресо</p></a>
         </li>
-        <li class="menu_li">
-            <a href="{{url('/page2')}}"><p class="menu_p">Шварц</p></a>
+        <li class="nav_li">
+            <a href="{{url('/page2')}}"><p class="nav_p">Шварц</p></a>
         </li>
-        <li class="menu_li">
-            <a href="{{url('/page3')}}"><p class="menu_p">Инстантно</p></a>
+        <li class="nav_li">
+            <a href="{{url('/page3')}}"><p class="nav_p">Инстантно</p></a>
         </li>
-        <li class="menu_li">
+        <li class="nav_li">
             <a href="{{url('/home')}}"><p class="logreg">login</p></a>
         </li>
     </ul>
-
-
-</div>
+</nav>

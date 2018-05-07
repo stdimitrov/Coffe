@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1920px) and (min-width: 1367px) {
     /* ********************* menu **************************** */
-    .menu_p {
+    .nav_p {
         color: red; /* this is only for test */
     }
 
@@ -34,7 +34,7 @@
 /* ************************************************************** */
 
 @media only screen and (max-width: 1366px) and (min-width: 1281px) {
-    .menu_p {
+    .nav_p {
         color: blue; /* this is only for test */
     }
 
@@ -48,7 +48,7 @@
 /* ************************************************************** */
 
 @media only screen and (max-width: 1280px) and (min-width: 1025px) {
-    .menu_p {
+    .nav_p {
         color: green; /* this is only for test */
     }
 
@@ -62,7 +62,7 @@
 /* ************************************************************** */
 
 @media only screen and (max-width: 1025px) {
-    .menu_p {
+    .nav_p {
         color: yellowgreen; /* this is only for test */
     }
 
