@@ -31,6 +31,6 @@ class CreateCoffesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('coffes');
+        Schema::dropIfExists('drink_product');
     }
 }

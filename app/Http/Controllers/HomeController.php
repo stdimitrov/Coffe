@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use App\Coffe;
 
 class HomeController extends Controller
 {
@@ -23,6 +26,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $coffes = Coffe::all();
+        return view('home')->with('coffes', $coffes);
+    }
+
+    public function showProducts()
+    {
+
+
+
+
     }
 }
