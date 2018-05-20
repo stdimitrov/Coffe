@@ -23,3 +23,4 @@ Route::get('/page3', 'Page\HomeController@page3');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/profile', 'UserController@list');

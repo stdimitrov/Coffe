@@ -167,3 +167,9 @@ button {
     font-size: 13px;
     color: #222222;
 }
+.navbar-left {
+    float: left;
+}
+.navbar-right {
+    float: right;
+}
